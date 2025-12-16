@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My porfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="darkmode.css">
+
+<!--link fort icons-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--Bootstrap link-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+<!--link for fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=badge" />
+
+
+
+
+</head>
+<body>
+  <header>
+  <label  id="dark-change"></label>
+</header>
+
+
+    <div class="loading" id="loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!--.........................nav-links.........................-->
+    <nav class="nav-home ">
+
+        <img src="./pictures/Memar-removebg-preview.png"  class="nav-logo" >
+        <div class="social-links">
+            <a href="https://www.instagram.com/justt.memar/" target="_blank"><i class="fa-brands fa-instagram"  ></i>  </a>
+            <a href="https://www.linkedin.com/in/emmar-christian-perez-b32b14357/" target="_blank"><i class="fa-brands fa-linkedin"  ></i> </a>
+            <a href="https://github.com/memarHub" target="_blank"><i class="fa-brands fa-square-github"  ></i></a> 
+        </div>
+
+        <ul class="nav-links" id="navMenu">
+            <li><a href="#hero"><i class="bi bi-house-door"></i><span>Home</span></a> </li>
+            <li><a href="#about"><i class="bi bi-person"></i> <span>About</span></a></li>
+            <li><a href="#project"><i class="bi bi-image-alt"></i><span> porfolio</span></a></li>
+            <li><a href="#certificate"> <i class="bi bi-images"></i><span> Certificates</span></a></li>
+            <li><a href="#contact"><i class="bi bi-telephone"></i></i><span> Contact</span></a></li>
+            
+        </ul>
+
+    </nav>
+<main class="main">
+    <!--.........................Hero Section......................... -->
+    <section id="hero" class="hero">
+
+    <!--.........................Darkmode button SVG .........................-->
+        <button id="theme-switch">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+    </button>
+
+      <div class="main-container">
+        <div class="container-item">
+            <h1>Emmar Christian Perez</h1>
+            <p>I'm
+                <span class="hero-type" data-typed-items="Computer Engineering Graduate, Experienced in Quality Assurance Testing, Full Stack and Data Engineering Student, Web Security Testing Student"></span>
+
+            </p>
+       
+          <div class="btn">
+          <a href="./Resume/MyResume.pdf" target="_blank" class="cta-button">Download CV </a>
+          </div>
+        </div>
+        <img id="change-photo" src="./pictures/1.png" class="profile" alt="Future Software Engineer">
+        </div>
+    </section>
+
+     <!-- .........................About Section.........................-->
+      <section id="about" class="about">
+        <p> Get to know more</p>
+        <h2> About me</h2>
+        <div class="about-content slide-appear">
+
+            <div class="about-left slide-up">
+              <div class="carousel">
+                <div class="about-card card-1 "></div>
+                <div class="about-card card-2"></div>
+                <div class="about-card card-3"></div>
+                <div class="about-card card-4"></div>
+                <div class="about-card card-5"></div>
+                <div class="about-card card-6"></div>
+              </div>
+
+              <div aria-hidden="" class="carousel">
+                <div class="about-card card-1 "></div>
+                <div class="about-card card-2"></div>
+                <div class="about-card card-3"></div>
+                <div class="about-card card-4"></div>
+                <div class="about-card card-5"></div>
+                <div class="about-card card-6"></div>
+              </div>
+
+            </div>
+
+            <div class="about-right">              
+            <div class="edu-info slide-appear">
+
+              <div class="edu-box slide-appear">
+                <i class="fa-solid fa-graduation-cap"></i>  
+                <h4>Experienced</h4>
+                <p>4+ months <br>
+                Quality Assurance Tester</p>
+              </div>
+            
+            <div class="edu-box slide-appear">
+                <span class="material-symbols-outlined" >badge</span>
+                <h4>Education</h4>
+                <p> BS in Computer Engineering<br>
+                STI College Lipa</p>
+              </div>
+            </div>
+
+            <p>Hi, I’m Emmar Christian Perez, a Computer Engineering graduate from STI College Lipa. I’m passionate about technology, especially in the fields of software testing and cybersecurity.
+
+             During my OJT, I gained hands-on experience creating test scenarios, reporting bugs, and manually testing a real website. This helped me understand how to spot issues from a user’s perspective and sparked my curiosity about identifying basic website vulnerabilities.
+
+            I also have a solid understanding of computer hardware and enjoy exploring how systems work behind the scenes. After my OJT, I continued learning on my own through platforms like Udemy, diving into topics such as system protection, common threats, and basic security practices. I’ve worked on projects involving automation, sensor-based systems, and quality assurance, and I have experience in basic penetration testing, computer repair, and knowledge of Agile methodologies used in development teams.
+
+           To scale up my skills, I’ve decided to take a Full-Stack Development course to expand my capabilities in web and application development. I’m now ready for the next step in my career journey, seeking opportunities in entry-level software testing, cybersecurity, or full-stack development, where I can apply my technical skills, attention to detail, and eagerness to learn. I’m motivated to grow professionally and contribute to building secure, reliable, and innovative systems.
+            </p>
+        </div>
+        </div>
+          
+          
+      </section>
+
+    <!-- .........................Portfolio Section.........................-->
+      <section id="project" class="project">
+        <div class="portfolio-container ">
+          <h3>Explore my showcase of experiments and projects, inspired by a passion for learning by doing.</h3>
+
+
+          <!--.........................Menu links.........................-->
+          <div class="proj-links ">
+            <span class="item-link menu-active " data-name="all">All </span>
+            <span class="item-link " data-name="hardware">Hardware</span>
+            <span class="item-link" data-name="iot">IoT Project</span>
+            <span class="item-link"data-name="Mini-proj">Mini proj</span>
+          </div>
+
+
+          <!--.........................Filter Image.........................-->
+
+          <div class="gallery-proj  projs">
+
+
+          <div class="project-img " data-name="all">
+              <img src="./project-pictures/Best-in-Capstone.jpg" alt="Best-in-Capstone">
+              <div class="overlay">
+                <h4 class="overlay-title">Best Research</h4>
+                <p class="overlay-p">Android-Based Automated Feeder and Monitoring System for Koi Aquarium – College Fair 2024</p>
+                <div class="action-aria">
+                  <a href="" > <i class="bi bi-search"></i></a>
+                  <a href="" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="project-img " data-name="all">
+              <img src="./project-pictures/graduation-day.jpg" alt="#">
+              <div class="overlay">
+                <h4 class="overlay-title">Graduation Day 2025</h4>
+                <p class="overlay-p">Finally graduated after years of hard work. Ready for the next chapter.</p>
+                <div class="action-aria">
+                  <a href="" > <i class="bi bi-search"></i></a>
+                  <a href="" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-img " data-name="hardware">
+              <img src="./project-pictures/p-bot.jpg" alt="P-Bot Sumo Car">
+              <div class="overlay">
+                <h4 class="overlay-title">P-Bot Sumo Car</h4>
+                <p class="overlay-p">The P-Bot Sumo Car is an autonomous Arduino robot that uses IR sensors to stay inside the ring and an ultrasonic sensor with a servo to detect and attack opponents automatically.</p>
+                <div class="action-aria">
+                  <a href="" > <i class="bi bi-search"></i></a>
+                  <a href="" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="project-img " data-name="iot">
+              <img src="./project-pictures/rc_car.jpg" alt="RC Car">
+              <div class="overlay">
+                <h4 class="overlay-title">Smartphone Controlled RC Car via Bluetooth</h4>
+                <p class="overlay-p">The Smartphone Controlled RC Car via Bluetooth uses an Arduino and HC-05 module to wirelessly drive a car’s motors via smartphone commands like forward, backward, left, and right.</p>
+                <div class="action-aria">
+                  <a href="" > <i class="bi bi-search"></i></a>
+                  <a href="" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-img " data-name="Mini-proj">
+              <img src="./pictures/cat-vibing.gif" alt="#">
+              <div class="overlay">
+                <h4 class="overlay-title">Website</h4>
+                <p class="overlay-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="action-aria">
+                  <a href="" > <i class="bi bi-search"></i></a>
+                  <a href="" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-img " data-name="iot">
+              <img src="./project-pictures/automated_feeding.jpg" alt="My Capstone proj">
+              <div class="overlay">
+                <h4 class="overlay-title">Koi Sensei</h4>
+                <p class="overlay-p">The Automated Feeder with Monitoring System for Koi automatically feeds koi fish and monitors water parameters using sensors, Arduino, and ESP32. Feeding schedules and water data can be controlled and viewed through an Android application, ensuring proper feeding and a healthy environment.</p>
+                <div class="action-aria">
+                  <a href="" > <i class="bi bi-search"></i></a>
+                  <a href="" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-img " data-name="hardware">
+              <img src="./project-pictures/fan-sound.jpg" alt="Fan with Sound Sensor Control">
+              <div class="overlay">
+                <h4 class="overlay-title">Fan with Sound Sensor Control</h4>
+                <p class="overlay-p">The Fan with Sound Sensor Control automatically turns a fan on or off using a sound sensor connected to an Arduino, responding to claps, voice commands, or ambient noise for hands-free operation.</p>
+                <div class="action-aria">
+                  <a href="" > <i class="bi bi-search"></i></a>
+                  <a href="" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div class="project-img " data-name="hardware">
+              <img src="./project-pictures/Weather-monitoring.jpg" alt="#">
+              <div class="overlay">
+                <h4 class="overlay-title">Smart Weather Monitoring System</h4>
+                <p class="overlay-p">A weather monitoring system that displays humidity and rain data on an LCD, using sensors to detect weather conditions and a servo motor to respond automatically to rain.</p>
+                <div class="action-aria">
+                  <a href="" > <i class="bi bi-search"></i></a>
+                  <a href="" ><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            
+
+          </div>
+
+        </div>
+
+    </section>        
+      
+    <!--.........................Certificate Section.........................-->
+    <section id="certificate" class="certificate">
+      <h3>Here are the certifications that demonstrate my knowledge, hard work, and passion for technology.</h3>
+      <div class="certificates-grid">
+
+        <div class="certificate-card slide-appear">
+          <img src="./Certificates/SoftwareTesting-Certificate.png" alt="SoftwareTesting-cert" >
+        </div>
+
+      <div class="certificate-card slide-appear">
+          <img src="./Certificates/aws-certificate.png" alt="Aws-cert" >
+        </div>
+
+      <div class="certificate-card slide-appear">
+          <img src="./Certificates/Bug Bounty Hunting & Web Security Testing-Certificate.png" alt="Web Security Testing-cert" >
+      </div>
+
+      <div class="certificate-card slide-appear">
+          <img src="./Certificates/DataAnalyticsEssentials- certificate.png" alt="dataEngineeringBootcamp-cert" >
+      </div>
+
+      <div class="certificate-card slide-appear">
+          <img src="./Certificates/ISC2 CC- Certificate.png" alt="ISC2-CC-cert" >
+        </div>
+
+        <div class="certificate-card slide-appear">
+          <img src="./Certificates/SoftwareTesting-Certificate.png" alt="dataEngineeringBootcamp-cert" >
+        </div>
+
+      </div>
+    </section>
+                
+                
+                
+    <!--.........................Contact Section.........................-->
+      <section id="contact" class="contact">
+        <div class="container-contact block">
+
+          <div class="address slide-appear">
+            <i class="bi bi-geo-alt-fill address-icon"></i>
+            <div class="address-info">
+              <h2> Address</h2>
+              <p>Lipa City, Batangas</p>
+            </div>
+          </div>
+
+          <div class="phone slide-appear">
+            <i class="bi bi-telephone phone-icon"></i>
+            <div class="phone-info info">
+              <h2> Phone Number</h2>
+              <p>+09269363310</p>
+            </div>
+          </div>
+
+          <div class="email slide-appear">
+            <i class="bi bi-envelope-at email-icon"></i>
+            <div class="email-info">
+              <h2> Email</h2>
+              <p>emmar@christianp@gmail.com</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+</main>
+<div class="wrapper">
+    <div class="box-wrap">
+        <div class="box one"></div>
+        <div class="box two"></div>
+        <div class="box three"></div>
+        <div class="box four"></div>
+        <div class="box five"></div>
+        <div class="box six"></div>
+    </div>
+</div>
+
+
+<!--.........................Footer Section......................... -->
+<footer class="footer-copy">
+  <p>© <span id="year"></span> Emmar. All Rights Reserved.</p>
+
+  
+</footer>
+
+
+
+    
+
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
+
+
