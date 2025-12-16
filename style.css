@@ -1000,5 +1000,17 @@ text-align: justify;
         height: max-content;
     }
 
+    .certificates-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gallery-proj {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
 }
 
