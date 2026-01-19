@@ -623,9 +623,9 @@ height: auto;
 }
 
 .action-aria i {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: bolder;
-    color: white;
+    color: #4464ca;
     transition: .3s ease;
 }
 
